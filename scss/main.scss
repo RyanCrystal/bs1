@@ -1,0 +1,79 @@
+$primary-color: #cdbcdd;
+
+body {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.carousel-caption {
+  padding-bottom: 12%;
+  h3 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.25rem;
+    color: $primary-color;
+  }
+}
+
+#team {
+  background: linear-gradient(rgb(226, 97, 97), rgb(224, 219, 219));
+}
+
+// INTRO
+// #intro {
+//   .img-container {
+//     height: 100%;
+//     width: 100%;
+//   }
+// }
+
+#menu {
+  .card {
+    box-shadow: 2px 5px 20px #777;
+  }
+}
+
+#ad {
+  background: url("../img/wine.jpg");
+  background-attachment: fixed;
+  background-position: 0 0% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+#video {
+  .meat {
+    padding-top: 100px;
+  }
+}
+
+#testimonials {
+  background: #444;
+  .test {
+    padding: 100px;
+  }
+  .carousel-item {
+    min-height: 200px;
+    .active {
+      border: none;
+    }
+  }
+}
+#main-footer {
+  background: #000000;
+  color: #fff;
+}
+#main-footer .container {
+  text-align: center;
+  padding: 1rem;
+}
+#contact {
+  .custom_btn {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    padding: 5px 40px;
+  }
+}
